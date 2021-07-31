@@ -1,8 +1,19 @@
+/*p.164 ì‹¤ìŠµë¬¸ì œ2
+ì˜ˆì‹œ ì…ë ¥ 1 
+ì—†ìŒ
+ì˜ˆì‹œ ì¶œë ¥ 1
+1
+1 2 3
+1
+1 2 3 4
+1 2
+*/
+
 public class Main1arrangement
 {
 	public static void main(String[] args) {
-		int intArray[][];//¹è¿­ÀÇ ¼±¾ğ.
-		intArray = new int[5][];//¹è¿­ÀÇ »ı¼º. 5ÇàÂ¥¸® 2Â÷¿ø ºñÁ¤¹æÇü ¹è¿­.
+		int intArray[][];//ë°°ì—´ì˜ ì„ ì–¸.
+		intArray = new int[5][];//ë°°ì—´ì˜ ìƒì„±. 5í–‰ì§œë¦¬ 2ì°¨ì› ë¹„ì •ë°©í˜• ë°°ì—´.
 		
 		intArray[0] = new int[1];
 		intArray[1] = new int[3];
